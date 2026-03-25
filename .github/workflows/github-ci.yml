@@ -6,7 +6,13 @@ name: Python CI/CD Pipeline
 # Uncomment the following lines to trigger the workflow on push and pull request events
 on:
  push:
+  paths:
+    - 'src/**'
+    - 'requirements.txt'
  pull_request:
+  paths:
+    - 'src/**'
+    - 'requirements.txt'
 
 jobs:
   # Build job

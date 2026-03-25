@@ -51,3 +51,5 @@ For questions or assistance, please reach out to [Zainuddin Saiyed](https://www.
 - [GitHub Actions Step by Step DEMO for Beginners](https://www.youtube.com/watch?v=ylEy4eLdhFs&ab_channel=AutomationStepbyStep)
 
 ---
+
+- test the job that only runs when changes are made to specific files or directory. 
