@@ -1,87 +1,53 @@
-# DevOps Foundations Certification Course
+# Session 1: Introduction to DevOps & CI/CD 
 
-Welcome to the **DevOps Foundations Certification** course! This comprehensive program is designed to provide you with a solid understanding of DevOps principles and practices. This repository contains all materials organized by weekly sessions, each consisting its own set of additional resources, guides, helpful links, instructions, and hands-on practice exercises to guide your learning experience.
+This week will be focussed on learning theoretical concepts of DevOps, with in-depth focus on Continious Integration (CI) and Continious Delivery/Deployment (CD).
 
-The course is designed and taught by [**Zainuddin Saiyed**](https://linkedin.com/in/zain-saiyed).
+## Learning Objectives
+- Understand the fundamentals of DevOps, and comparison with Traditional SDLC.
+- Learn about CI/CD concepts and practices.
+- Implement a CI/CD pipeline using GitLab CI/CD and GitHub Actions.
 
+## Contact Information
+For questions or assistance, please reach out to [Zainuddin Saiyed](https://www.linkedin.com/in/zain-saiyed/).
 
-## Course Structure
-The course consists of in-person sessions held every Tuesdays for four weeks, starting November 5. Each in-person session would include:
-- **Theoretical explanations** and discussions on foundation concepts
-- **Hands-on pratcical understanding** on the topics learnt
-- and, a fun and interactive **Kahoot Quiz** at the end of the session to test understanding of the topics learnt in class.
+## Contents
 
-## In-Person Session Details:
-Every Tuesdays starting November 5 to November 26
-(6pm to 8pm)
+- **`README.md`**: Overview and instructions for `Week 1` materials.
+- **`DevOps Foundations-Session 1 Slides.pdf`**: In-person session presentation slides.
+- **`GitLab CI CD Practice/`**: Demo exercise for implementing a CI/CD pipeline on **GitLab**.
+- **`GitHub Action Practice/`**: This folder includes the demo practice exercise for implementing a CI/CD pipeline on **GitHub**.
 
-Room 134 (Lab)
+## Helpful Guides and Essential Resources
 
-Goldberg CS Building 6050 University Ave.
+### Gitlab CI/CD
+- **(Must Read)** [CI/CD Fundamentals by GitLab](https://about.gitlab.com/topics/ci-cd/)
+- **(Must Read)** [Understanding GitLab CI/CD](https://docs.gitlab.com/ee/ci/)
+- [CI/CD YAML syntax reference guide]( https://docs.gitlab.com/ee/ci/yaml/)
+- [Tutorial: Create and run your first GitLab CI/CD pipeline]( https://docs.gitlab.com/ee/ci/quick_start/)
+- [Examples of GitLab CI/CD for multiple languages](https://docs.gitlab.com/ee/ci/examples/)
 
+#### Video Tutorial
+- [GitLab CI CD Tutorial for Beginners [Crash Course]](https://www.youtube.com/watch?v=qP8kir2GUgo)
 
-## Course Timeline
+---
 
-1. **Session 1**: Introduction to DevOps & CI/CD **(November 5)**
-    - _Core Topics_:
-        - Traditional Software Development Lifecycle
-        - DevOps: Concepts, Benefits, and Lifecycle Phases
-        - Seven Major DevOps Practices
-        - In-depth focus on Continious Integration (CI) and Continious Delivery/Deployment (CD)
-        - _Understanding GitLab CI/CD_ (YAML configuration)
-        - _Exploring GitHub Actions_ (YAML configuration)
-    - _Materials available at_: [Go to: Week 1 - Material](https://github.com/shiftkey-labs/DevOps-Foundations-Course/tree/master/Week%201) 
+### GitHub Actions 
 
-2. **Session 2**: Containerisation and Orchestration using Docker **(November 12)**
-    - _Core Topics_:
-        - Understanding Virtual Machines (VMs)
-        - Introduction to Containerization
-        - Containers vs Virtual Machines
-        - Docker Fundamentals
-        - Docker architecture
-        - Docker images and containers
-        - Basic Docker commands 
-    - _Materials available at_: [Go to: Week 2 - Material](https://github.com/shiftkey-labs/DevOps-Foundations-Course/tree/master/Week%202) 
-  
-3. **Session 3**: Advanced Docker Concepts and Cloud Computing Fundamentals **(November 19)**
-    - _Core Topics_:
-        - Understanding Docker Compose
-        - Understanding Docker Networks
-        - Understanding Docker Volumes
-        - Microservice Architectures
-        - Basics of Cloud Computing
-    - _Materials available at_: [Go to: Week 3 - Material](https://github.com/shiftkey-labs/DevOps-Foundations-Course/tree/master/Week%203) 
+- **(Must Read)** [Understanding GitHub Actions](https://docs.github.com/en/actions/about-github-actions/understanding-github-actions)
+- [GitHub Actions syntax reference guide](https://docs.github.com/en/actions/reference/workflow-syntax-for-github-actions)
+- [Quickstart for GitHub Actions](https://docs.github.com/en/actions/writing-workflows/quickstart)
+- [Tutorial: Create a GitHub Actions workflow](https://docs.github.com/en/actions/quickstart)
+- [An Example Workflow](https://docs.github.com/en/actions/use-cases-and-examples/creating-an-example-workflow)
+- [More Information about GitHub-hosted runners](https://docs.github.com/en/actions/using-github-hosted-runners/using-github-hosted-runners/about-github-hosted-runners)
+    - Public Repositories: ([Click Here](https://docs.github.com/en/actions/using-github-hosted-runners/using-github-hosted-runners/about-github-hosted-runners#standard-github-hosted-runners-for-public-repositories)) 
+    - Private Repositories ([Click Here](https://docs.github.com/en/actions/using-github-hosted-runners/using-github-hosted-runners/about-github-hosted-runners#standard-github-hosted-runners-for--private-repositories))
 
-4. **Session 4**: Final Exam & Project QnA session **(November 26)**
-
-> **Note:** 
-> For each session, detailed materials including slides, practice exercises, and Kahoot quizzes are available in the corresponding week's folder. Participants are encouraged to review these resources for a comprehensive understanding of the topics covered.
+- [How to use the checkout action in GitHub Actions?](https://graphite.dev/guides/github-actions-checkout)
 
 
-## Certificate Eligibility
-To receive a certificate of completion, participants must meet the following criteria:
-1. Attend a minimum of 2 out of the first 3 sessions (75% attendance).
-2. Assessments and Deliverables:
-    1. Complete a **in-person examination** during Session 4 (November 26).
-    2. Submit a **takeaway course project**, which will be released on Session 2 (November 12) and due on December 4.
+#### Video Tutorials:
+- [GitHub Actions Tutorial - Basic Concepts and CI/CD Pipeline with Docker](https://youtube.com/watch?v=R8_veQiYBjI&ab_channel=TechWorldwithNana  )
 
-
-## Assessment and Rubric
-
-1. **In-Person Examination:**
-   - **Exam Day:** **`November 26th`**
-   - **Duration:** 1 Hour
-   - **Format:** 45 Scenario-Based Multiple-Choice Questions
-   - **Topics Covered:** All topics from **Session 1** through **Session 3**
-   - **Study Resources:** 
-     - Session Materials: [Week 1](https://github.com/shiftkey-labs/DevOps-Foundations-Course/tree/master/Week%201), [Week 2](https://github.com/shiftkey-labs/DevOps-Foundations-Course/tree/master/Week%202), [Week 3](https://github.com/shiftkey-labs/DevOps-Foundations-Course/tree/master/Week%203)
-     - Practice Quizzes and Kahoot Question-Answers: [Click Here](https://github.com/shiftkey-labs/DevOps-Foundations-Course/tree/master/Practice%20Quizes)
-
-2. **Takeaway Course Project:**
-   - Release Date: November 12th
-   - **Submission Deadline:** **`December 4th`**
-   - Project Specification & Submission Guidelines: [Click Here](https://github.com/shiftkey-labs/DevOps-Foundations-Course/tree/master/Project)
-   - Project Evaluation Criteria: [Click Here](https://github.com/shiftkey-labs/DevOps-Foundations-Course/tree/master/Project#evaluation-criteria)
-
+- [GitHub Actions Step by Step DEMO for Beginners](https://www.youtube.com/watch?v=ylEy4eLdhFs&ab_channel=AutomationStepbyStep)
 
 ---
